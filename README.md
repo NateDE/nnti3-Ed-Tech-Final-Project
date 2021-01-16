@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Live Online
 You can access the app here: 
 
-##To Test Locally
+## To Test Locally
 
 ### `Follow the instructions below`
 1. Clone the repo with git clone <https url>
