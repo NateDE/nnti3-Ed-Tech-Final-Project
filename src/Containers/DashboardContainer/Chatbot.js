@@ -1,6 +1,5 @@
-import React, { useState, useEffect, Component } from "react";
+import React, { Component } from "react";
 import PropTypes from 'prop-types';
-import { Auth } from 'aws-amplify';
 import { withRouter } from 'react-router';
 import { Layout } from 'antd';
 import { ThemeProvider } from 'styled-components';
@@ -9,12 +8,7 @@ import { ThemeProvider } from 'styled-components';
 import { colors } from '../../Themes/Colors';
 
 /** App Constatns */
-import { AUTH_USER_TOKEN_KEY } from '../../Utils/constants';
-import { ClickParam } from 'antd/lib/menu';
-import logo from '../../assets/homeLogo2.png'
 import MyChatBot from 'react-simple-chatbot';
-
-import { DashboardOutlined, AccountBookOutlined, NotificationOutlined } from '@ant-design/icons';
 
 class Review extends Component {
     constructor(props) {
@@ -99,21 +93,6 @@ Review.defaultProps = {
 
 const Chatbot = (props) => {
 
-    let [username, setUserName] = useState("");
-    let [isSpeech, setSpeech] = useState();
-
-    useEffect(() => {
-        Auth.currentAuthenticatedUser({bypassCache: true}).then((user) => {
-          //console.log(user);
-          setUserName(user.attributes.name);
-          console.log(user.attributes.name)
-        })
-        .catch((error) => {
-            console.log (error)
-        });
-    });
-
-
 
     const theme = {
       background: '#f5f8fb',
@@ -126,9 +105,6 @@ const Chatbot = (props) => {
       userBubbleColor: '#fff',
       userFontColor: '#4a4a4a',
     };
-
-    var v = 0, a = 0, t = 0;
-    var verb = 0, logic = 0, soc = 0, sol = 0;
 
     var array = Array(7).fill(0);
 
@@ -170,9 +146,6 @@ const Chatbot = (props) => {
         }
     }
 
-    function grabtitle(title){
-        console.log(title)
-    }
     function grabdesc(desc){
         console.log(desc)
     }
