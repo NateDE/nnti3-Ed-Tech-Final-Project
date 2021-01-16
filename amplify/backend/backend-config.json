@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"advisorapp86e0d600": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

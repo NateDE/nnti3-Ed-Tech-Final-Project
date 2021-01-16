@@ -1,0 +1,20 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-advisorapp-prod-93113-authRole",
+            "UnauthRoleArn": "arn:aws:iam::155588529550:role/amplify-advisorapp-prod-93113-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::155588529550:role/amplify-advisorapp-prod-93113-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-advisorapp-prod-93113-deployment",
+            "UnauthRoleName": "amplify-advisorapp-prod-93113-unauthRole",
+            "StackName": "amplify-advisorapp-prod-93113",
+            "StackId": "arn:aws:cloudformation:us-east-1:155588529550:stack/amplify-advisorapp-prod-93113/3934c6d0-fe6a-11ea-a026-0e71a2c850a7",
+            "AmplifyAppId": "dxgz71ol5ewv7"
+        },
+        "categories": {
+            "auth": {
+                "advisorapp86e0d600": {}
+            }
+        }
+    }
+}
