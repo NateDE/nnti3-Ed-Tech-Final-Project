@@ -1,8 +1,8 @@
 import React, { useState, useEffect, Component } from "react";
 import PropTypes from 'prop-types';
 import { Auth } from 'aws-amplify';
-import { RouteComponentProps, withRouter } from 'react-router';
-import { Layout, Menu, Breadcrumb, Icon, notification } from 'antd';
+import { withRouter } from 'react-router';
+import { Layout } from 'antd';
 import { ThemeProvider } from 'styled-components';
 
 /** App Theme */

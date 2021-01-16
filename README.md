@@ -4,7 +4,7 @@ You can access the app here:
 ## To Test Locally
 
 ### `Follow the instructions below`
-1. Clone the repo with git clone <https url>
+1. Clone the repo with git clone "https url"
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

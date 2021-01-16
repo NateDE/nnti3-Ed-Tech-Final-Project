@@ -1,8 +1,6 @@
 import * as React from 'react';
-import { Auth } from 'aws-amplify';
-import { RouteComponentProps, withRouter } from 'react-router';
+import { withRouter } from 'react-router';
 import { Layout, Menu, Breadcrumb, Icon, notification } from 'antd';
-import { ThemeProvider } from 'styled-components';
 import Nav from "../../Navigation/Navbar";
 import ChatBot from "./Chatbot";
 

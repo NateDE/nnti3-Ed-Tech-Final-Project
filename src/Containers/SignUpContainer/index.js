@@ -2,8 +2,6 @@ import * as React from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import { Auth } from 'aws-amplify';
 import { Form, Input, Icon, Button, notification, Popover, Spin, Col, Row } from 'antd';
-import ProgressiveImage from "react-progressive-image"
-import logo from '../../assets/logo.png'
 
 import '../../App.css'
 

@@ -80,11 +80,11 @@ class LoginContainer extends React.Component {
           })
           .catch(err => {
             let m = err.message
-            if (err.message == "User is not confirmed.") {
+            if (err.message === "User is not confirmed.") {
               this.setState({ email });
               this.setState({ confirm: true })
             }
-            if (err.message == "Only radix 2, 4, 8, 16, 32 are supported"){
+            if (err.message === "Only radix 2, 4, 8, 16, 32 are supported"){
               m = "Account doesn't exist. Please register for an account."
             }
             notification.error({
